@@ -1,0 +1,65 @@
+<html>
+<head>
+<script  type="text/javascript" src="fo.js"></script>
+<link rel="stylesheet" type="text/css" href="rform.css"/>
+</head>
+<body>
+<form name="myform" onsubmit="return search();">
+<table border="1">
+<tr>
+<td><header>REGISTRATION FORM</header><br></td></tr>
+<tr><td>
+<input type="text" placeholder="First name*" id="fname" name="fn" onKeydown="Javascript: if(event.keyCode==13) return Search(document.myform.fn);"><span id="f"></span><br>
+<br><input type="text" placeholder="Last name*" id="lname" name="ln" onKeydown="Javascript: if(event.keyCode==13) return Searc(document.myform.ln);"><span id="l"></span><br>
+<br><input type="text" placeholder="Father name*" id="faname" name="fan" onKeydown="Javascript: if(event.keyCode==13) return Sear(document.myform.fan);"><span id="fa"></span><br>
+<br><input type="text" placeholder="Mother name*" id="mname" name="mn" onKeydown="Javascript: if(event.keyCode==13) return Sea(document.myform.mn);"><span id="m"></span><br>
+<br><input list="g" placeholder="Gender">
+<datalist id="g">
+<option value="Male">
+<option value="Female">
+<option value="Other">
+</datalist>
+<br><br>
+<input type="date" value="Date Of Birth"><br>
+<br><input type="email" placeholder="Email Address*" name="em" onKeydown="Javascript: if(event.keyCode==13) return S(document.myform.em);"><span id="e"></span><br>
+<br><input type="tel" placeholder="Phone Number*" id="phn" name="ph" onKeydown="Javascript: if(event.keyCode==13) return Se(document.myform.ph);"><span id="p"></span><br>
+<br><textarea rows="4" cols="57" placeholder="Address"></textarea><br>
+<br><input type="text" placeholder="city"><br><br>
+<input list="s" placeholder="State">
+<datalist id="s">
+<option value="Assam">
+<option value="Bihar">
+<option value="Chattisgarh">
+<option value="Goa">
+<option value="Gujarat">
+<option value="Haryana">
+<option value="Jammu and Kashmir">
+<option value="Jharkhand">
+<option value="Kerala">
+<option value="Manipur">
+<option value="Odisha">
+<option value="Punjab">
+<option value="Rajasthan">
+</datalist><br>
+<br><input list="country" placeholder="Country">
+<datalist id="country">
+<option value="Afghanistan">
+<option value="Algeria">
+<option value="Bahrain">
+<option value="Bangladesh">
+<option value="Belarus">
+<option value="Canada">
+<option value="Denmark">
+<option value="France">
+<option value="India">
+<option value="Libya">
+<option value="Malaysia">
+<option value="Russia">
+<option value="Zimbabwe">
+</datalist>
+<br><br>
+<br><div><input type="submit" name="SUBMIT" id="b" onclick="window.location.href='ff.html'"></div>
+</td></tr></table>
+</form>
+</body>
+</html>

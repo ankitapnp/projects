@@ -1,0 +1,150 @@
+@import url('http://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('http://fonts.googleapis.com/css?family=Dosis');
+@import url('http://fonts.googleapis.com/css?family=Poiret+One');
+@import url('http://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('http://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+div.next{
+margin-top:-1.5em;
+height:10em;
+}
+.carousel-content {
+position:absolute;
+  bottom:30%;
+  left:27%;
+ z-index: 20;
+  color:black;
+border-radius:12px;
+width:48%;
+height:35%;
+background:linear-gradient(to right,blue,lightgreen);
+opacity:0.8;
+color:white;
+font-family:Josefin Sans;
+}
+
+.carousel-content input{
+background:white;
+color:black;
+width:35%;
+height:17%;
+border:1px solid grey;
+}
+
+.carousel-content button{
+background:blue;
+color:white;
+width:10%;
+height:17%;
+}
+
+div.join{
+background:lightgrey;
+height:15em;
+}
+.join button{
+background:red;
+color:white;
+width:15em;
+height:3em;
+border-radius:8px;
+font-weight:bold;
+}
+.join input{
+background:blue;
+color:white;
+width:15em;
+height:3em;
+border-radius:8px;
+font-weight:bold;
+}
+div.container{
+width:102.5%;
+margin-top:-1.4em;
+margin-left:-1.3em;
+
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+ width:100%;
+height:105%;
+margin-top:-3em;
+}
+ 
+table{
+border:2px solid white;
+width:42em;
+height:20em;
+
+}
+
+input{
+height:57%;
+width:12%;
+border: 0;
+outline: 0;
+background:lightgreen;
+margin-top:1em;
+border-radius:2px;
+}
+
+nav{
+opacity:0.8;
+z-index:50;
+position:fixed;
+background:darkgreen;
+width:100%;
+height:10%;
+}
+
+nav ul li{
+list-style:none;
+float:left;
+width:10%;
+text-align:center;
+}
+
+nav ul li a {
+text-decoration:none;
+text-align:center;
+color:white;
+line-height:6em;
+display:block;
+font-family:Josefin Sans;
+font-weight:bold;
+}
+li a:hover{
+background:green;
+height:99%;
+color:white;
+text-decoration:none;
+}
+
+div.jobs{
+background:lightgrey;
+height:20em;
+}
+
+.glass > .container{
+width:55%;
+height:50%;
+margin-left:22%;
+
+}
+
+
+hr{
+border:1px solid darkgrey;
+width:50em;
+}
+
+.jobs button{
+background:blue;
+color:white;
+width:14em;
+height:3em;
+}
+.jobs input{
+height:17%;
+}
