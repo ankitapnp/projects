@@ -68,7 +68,7 @@ margin-left:-1.3em;
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
  width:100%;
-height:105%;
+height:100%;
 margin-top:-3em;
 }
  
@@ -129,10 +129,15 @@ height:20em;
 .glass > .container{
 width:55%;
 height:50%;
-margin-left:22%;
+margin-left:20%;
 
 }
-
+.glass > .carousel-inner > .item > img,
+.glass > .carousel-inner > .item > a > img {
+ width:100%;
+height:110%;
+margin-top:-3em;
+}
 
 hr{
 border:1px solid darkgrey;
